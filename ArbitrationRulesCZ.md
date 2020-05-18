@@ -6,7 +6,7 @@
 1. Rozhodčí řízení se zahajuje na návrh jedné ze stran a to [vytvořením žaloby - Create action](https://app.arbitrust.org/user/). Vytvoření žaloby je iniciováno hashem žaloby a uvedením adresy protistrany.
 1. Žaloba musí obsahovat, indentifikaci účastniků nevyhnutnou pro vydání rozhodčího nálezu, důkazy v elektronické formě a čeho se žalobce domáhá.
 1. Po vytvoření žaloby je žalovaný povinný přidat zašifrovaný soubor žaloby - Submit action (dále jen "přidání žaloby"). Soubor musí být zašifrovaný tak, aby každý arbitr a žalovaný mohl soubor otevřít prostřednictvím svého soukromého klíče. Další dokumenty - Submit document, musí být šifrovány klíčem vybraného arbitra a protistrany.
-1. Po přidání souboru je na základě [klíče vylosován síti arbitr](), který může spor s konečnou platností rozhodnout.
+1. Po přidání souboru žaloby je na základě [klíče vylosován síti arbitr](), který může spor s konečnou platností rozhodnout.
 1. Rozhodce musí nechat stranám 10 dní od přidání znění žaloby na vyjádření se k věci. Rozhodce je povinen hlasovat do dvacátého dne od přidání žaloby. Rozhodce může návrhu jenom vyhovět nebo ho zamítnout (meritorní rozhodnutí). V případě, že rozhodce nerozhodne ve stanoveném termínu, je žalobce oprávněn podat novou žalobu.
 1. Rozhodce je povinen zdržet se hlasování, pokud je přesvědčen, že je v dané věci podjatý, nebo je přesvědčen, že nemá potřebné znalosti pro rozhodnutí sporu.
 1. Poplatek za arbitráž je placenej v měně Ethereum přepočteno nejméně na 200 USD dle aktuálního kurzu Ethereum dle [coinmarketcap.com](https://coinmarketcap.com) a zároveň nesmí byt menší než 0.2 ETH.

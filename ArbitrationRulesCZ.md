@@ -1,15 +1,17 @@
 # Procesní pravidla
 
-1. Rozhodčí řízení se zahajuje na návrh jedné ze stran okamžikem zařazení transakce v Blockchainové síti Bitcoin s nejvyšším výkonem (hashrate) ve formě OP_RETURN na adresu Arbitrust.
-2. Po zařazení transakce do bloku je v šestém následujícím bloku vybrán první rozhodce a to (nonce) modulo (počet rozhodců). Každý další rozhodce je vybrán obdobně s tím, že ze seznamu rozhodců jsou odebrání všichni ti, kteří byli vybráni v kolech předcházejících (dále jenom “Výběrový klíč”).
-3. Dokumenty jsou doručovány prostřednictvím e-mailu a všechny musí být podepsány kvalifikovaným elektronickým podpisem.
-4. Ze Seznamu rozhodců se vyberou podle Výběrového klíče tři rozhodci, kteří jsou případ oprávněni projednat a nezávisle na sobě o něm rozhodnout. Po vykonaném platném hlasování je rozhodce ustanoveným rozhodcem.
-5. Vybraný rozhodce není povinen hlasovat.
-5. Každý rozhodce hlasující rozhodce pošle hodnocení a odůvodnění na adresu info@arbitrust.org do 72 hodin od okamžiku výběru. Pokud vybraný rozhodce nerozhodne, přechází pravomoc rozhodce na dalšího rozhodce v souladu s pravidlem Výběrového klíče.
-6. Rozhodce může návrhu jenom vyhovět, nebo ho zamítnout.
-7. Rozhodce je povinen zdržet se hlasování, pokud je přesvědčen, že je v dané věci podjatý, nebo je přesvědčen, že nemá potřebné znalosti pro rozhodnutí sporu.
-8. Po třech platných hlasech jsou dokumenty předány prvnímu ustanovenému rozhodci, který je zároveň předsedajícím rozhodcem. Předsedající rozhodce je povinen vyhotovit Rozhodčí nález s uvedením odůvodnění jednotlivých rozhodců a jejich hlasů a odeslat ho stranám sporu v elektronické podobě, podepsaný kvalifikovaným podpisem a tak, aby splňoval náležitosti stanovené zákonem.
-9. Rozhoduje většina všech hlasů.
-10. Ustanoveným rozhodcům náleží odměna ve výši poplatku složeném žalobcem.
-11. Náklady rozhodčího řízení nese tá strana, která ve sporu neuspěla.  Poplatek rozhodčího řízení se dělí mezi arbitry rovným dílem a činí celkem 6.000 CZK a musí být složena předem.
-12. Rozhodce je dle zákona i dle procesních pravidel povinen zachovat o rozhodčím řízení a jeho obsahu mlčenlivost.
+
+1. Pro rozhodčí řízení se strany domluvili, že budou používat pro identifikaci adresy v síti (Ethereum)[https://ethereum.org/] (dále jen "síť") uvedené v rozhodčí doložce a pro šifrovaní komunikace standard využívaný aplikací (GnuPG)[https://gnupg.org/]. Pro každou smlouvu se doporučuje vytvořit nový šifrovací gpg klíč a použit novou Ethereum adresu.
+1. Pro první identifikaci uživatelů se vyžaduje (kvalifikovaný elektronický podpis)[https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0910] nebo (autorizovaná konverze)[https://www.ceskaposta.cz/sluzby/egovernment/czechpoint/autorizovana-konverze-dokumentu] (úředně ověřených podpisů)[https://www.ceskaposta.cz/sluzby/egovernment/overovani-listin-a-podpisu].
+1.Celé řízení probíhá v elektronické formě prostřednictvím sítě Ethereum a (IPFS)[https://ipfs.io/]. V případě, že to není objektivně možné, nebo strany vyjádřily vzájemný souhlas, můžou strany použít pro doručení email. Za doručení se považuje třetí den od zveřejnění dokumentu v síti a také třetí den od odeslání emailu.
+1. Rozhodčí řízení se zahajuje na návrh jedné ze stran a to (vytvořením žaloby - Create action)[https://app.arbitrust.org/user/]. Vytvoření žaloby je iniciováno hashem žaloby a uvedením adresy protistrany.
+1. Žaloba musí obsahovat, indentifikaci účastniků nevyhnutnou pro vydání rozhodčího nálezu, důkazy v elektronické formě a čeho se žalobce domáhá.
+1. Po vytvoření žaloby je žalovaný povinný přidat zašifrovaný soubor žaloby - Submit action (dále jen "přidání žaloby"). Soubor musí být zašifrovaný tak, aby každý arbitr a žalovaný mohl soubor otevřít prostřednictvím svého soukromého klíče. Další dokumenty - Submit document, musí být šifrovány klíčem vybraného arbitra a protistrany.
+1. Rozhodce musí nechat stranám 10 dní od přidání znění žaloby na vyjádření se k věci. Rozhodce je povinen hlasovat do dvacátého dne od přidání žaloby. V případě, že rozhodce nerozhodne ve stanoveném termínu, je žalobce oprávněn podat novou žalobu a rozhodce je povinen nahradit náklady arbitráže žalobci.
+1. Rozhodce je povinen zamítnout žalobu, pokud je přesvědčen, že je v dané věci podjatý, nebo je přesvědčen, že nemá potřebné znalosti pro rozhodnutí sporu.
+1. Po přidání souboru je na základě (klíče vylosován síti arbitr)[], který může spor s konečnou platností rozhodnout.
+1. Poplatek za arbitráž činí 200 USD dle aktuálního kurzu Ethereum a zároveň nesmí byt menší než 0.2 ETH.
+1. Poplatky za transakce nese každý účastník sám. Poplatek za arbitráž nese v plné výši strana, která spor prohrála.
+1. Rozhodce může návrhu jenom vyhovět, nebo ho zamítnout. Zamítnutí žaloby není meritorní rozhodnutí. Vyhovění žalobě je meritorním rozhodnutím.
+1. Ustanoveným rozhodcům náleží odměna ve výši poplatku složeném žalobcem snížená o 20 % a to v měně Ethereum.
+1. Rozhodce je dle zákona i dle procesních pravidel povinen zachovat o rozhodčím řízení a jeho obsahu mlčenlivost.

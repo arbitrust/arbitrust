@@ -1,2 +1,2 @@
 # arbitrust
-Minimal implementation of the Schelling point and legal arbitration
+Minimal implementation of the Schelling point and decentralised legal arbitration

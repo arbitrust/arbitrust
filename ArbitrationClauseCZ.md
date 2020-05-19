@@ -1,4 +1,4 @@
-# Rozhodčí smlouva (vzor)
+# Rozhodčí smlouva
 
 Jméno a příjmení:
 
@@ -6,11 +6,21 @@ Bydliště:
 
 Email:
 
+ETH adresa:
+
+GPG KEY:
+
+
+
 Jméno a příjmení:
 
 Bydliště:
 
 Email:
+
+ETH adresa:
+
+GPG KEY:
 
 
 Všechny spory, které vzniknou ze smlouvy o __________________ anebo v souvislosti s ní, budou rozhodovány s vyloučením pravomoci obecných soudů s konečnou platností v rozhodčím řízení dle podmínek této Rozhodčí smlouvy a Procesních pravidel.

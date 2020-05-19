@@ -11,5 +11,5 @@
 1. Rozhodce je povinen zdržet se hlasování, pokud je přesvědčen, že je v dané věci podjatý, nebo je přesvědčen, že nemá potřebné znalosti pro rozhodnutí sporu.
 1. Poplatek za arbitráž je placený v měně Ethereum přepočteno nejméně na 200 USD dle aktuálního kurzu Ethereum dle [coinmarketcap.com](https://coinmarketcap.com) a zároveň nesmí byt menší než 0.2 ETH.
 1. Poplatky za veškeré transakce nese každý účastník sám. Poplatek za arbitráž dle předchozího bodu nese nese v plné výši strana, která spor prohrála a bude součástí rozhodnutí.
-1. Ustanoveným rozhodcům náleží odměna ve výši poplatku složeném žalobcem snížená o 20 % a to v měně Ethereum.
+1. Ustanoveným rozhodcům náleží odměna ve výši poplatku složeném žalobcem a to v měně Ethereum.
 1. Rozhodce je dle zákona i dle procesních pravidel povinen zachovat o rozhodčím řízení a jeho obsahu mlčenlivost.

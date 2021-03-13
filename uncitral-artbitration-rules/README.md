@@ -1015,7 +1015,8 @@ proposal of the arbitral tribunal is inconsistent with paragraph
 1, it shall make any necessary adjustments thereto, which shall
 be binding upon the arbitral tribunal.
 
-4. (a) When informing the parties of the arbitrators’ fees
+4.  
+    * (a) When informing the parties of the arbitrators’ fees
 and expenses that have been fixed pursuant to article 40,
 paragraphs 2 (a) and (b), the arbitral tribunal shall also explain
 the manner in which the corresponding amounts have been

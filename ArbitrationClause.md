@@ -10,7 +10,7 @@
 
 5. The Expedited Procedure shall apply and the dispute shall be decided based on documentary evidence only.
 
-6. All documents, including the notice, action, response or challenge, shall be delivered through Arbitrust Ethereum Smart Contract (AESC - [hash]) which shall be used as an online dispute resolution platform. Documents can be submitted to AESC directly by the parties or by intermediary through email sekretariat@arbitrust.org. Delivery through the intermediary is subject to a fee of 15,- EUR (in words: thirty euros) per file of reasonable size and format. The fee can be reasonably adjusted according to actual fees in the AESC Blockchain.
+6. All documents, including the notice, action, response or challenge, shall be delivered through Arbitrust Ethereum Smart Contract (AESC - [hash]) which shall be used as an online dispute resolution platform. Documents can be submitted to AESC directly by the parties or by intermediary through email secretariat@arbitrust.org. Delivery through the intermediary is subject to a fee of 15,- EUR (in words: thirty euros) per file of reasonable size and format. The fee can be reasonably adjusted according to actual fees in the AESC Blockchain.
 
 7. The documents shall be deemed as delivered the moment they are written to the blockchain of AESC.
 
